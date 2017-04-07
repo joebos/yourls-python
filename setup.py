@@ -66,7 +66,7 @@ extras_require['dev'] = {
     'watchdog',
 }
 
-extras_require['test:python_version<"3.3"'] = {'mock'}
+#extras_require['test:python_version<"3.3"'] = {'mock'}
 
 add_to_extras(extras_require, 'dev', 'test')
 
